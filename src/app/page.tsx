@@ -1,4 +1,4 @@
-"use client"
+"use client";
 
 import NavbarStyleApple from '@/components/navbar/NavbarStyleApple/NavbarStyleApple';
 import HeroSplit from '@/components/sections/hero/HeroSplit';
@@ -15,7 +15,7 @@ import BlogCardOne from '@/components/sections/blog/BlogCardOne';
 import ContactSplit from '@/components/sections/contact/ContactSplit';
 import FooterBase from '@/components/sections/footer/FooterBase';
 import { ThemeProvider } from '@/providers/ThemeProvider';
-import { BarChart3, Briefcase, Crown, DollarSign, Handshake, Newspaper, Package, Quote, Rocket, Star, TrendingUp, Users } from 'lucide-react';
+import { BarChart3, Briefcase, Crown, DollarSign, Handshake, Instagram, Linkedin, Newspaper, Package, Quote, Rocket, Star, TrendingUp, Twitter, Users } from 'lucide-react';
 
 export default function Home() {
   return (
@@ -244,8 +244,8 @@ export default function Home() {
               imageSrc: "https://images.pexels.com/photos/7005247/pexels-photo-7005247.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
               imageAlt: "Ryan Patrick portrait",
               socialLinks: [
-                { icon: "Linkedin", url: "https://linkedin.com" },
-                { icon: "Twitter", url: "https://twitter.com" }
+                { icon: Linkedin, url: "https://linkedin.com" },
+                { icon: Twitter, url: "https://twitter.com" }
               ]
             },
             {
@@ -256,8 +256,8 @@ export default function Home() {
               imageSrc: "https://images.pexels.com/photos/32083784/pexels-photo-32083784.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
               imageAlt: "Sarah Martinez portrait",
               socialLinks: [
-                { icon: "Linkedin", url: "https://linkedin.com" },
-                { icon: "Instagram", url: "https://instagram.com" }
+                { icon: Linkedin, url: "https://linkedin.com" },
+                { icon: Instagram, url: "https://instagram.com" }
               ]
             }
           ]}
